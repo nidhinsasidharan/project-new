@@ -1,0 +1,38 @@
+
+
+
+git clone url ->first of all we have to sync our project repository made on github.com in our 
+                computer so that we can work on it.for doing that follow the below command.
+
+copy the URL by getting into your repository on github.com
+click on your repository---> <>code option --->clone or download option dropdown -->copy url
+
+1>open cmd and browse to the location by using cd command where you want to place the repository
+  in your computer.
+2>type git clone (paste URL copied from above) 
+---------------------------------------------------------------------------------------------
+git pull ->it will show you the latest modified or created files by 
+           other users inyour team.
+
+git add -A -> it will add the changes made by you in the file in the 
+              repository present in your system.
+
+git commit -m "whatever be the message" ->after adding the modified 
+              file to your repository in your system we have to commit 
+              the changes .
+              NOTE :after -m in "" i.e inside double qoutes we have to
+              mention what changes we have did.so after commit the changes 
+              in the file will be shown to you and others by the message.
+
+git push -> after commiting the changes made to the file and saved it 
+            in the repository in our system now its time to upload it 
+            or sync it to our online repository in github.com.
+
+NOTE:
+1>if you commit using git commit command and if you didn't mention -m
+ after commit then you will reach out to a new state in editor it is 
+because git uses vi editor by default so to get out of the situation 
+type command
+esc(press esc key in keyboard rest you have to type):wq(then press enter)
+
+              
